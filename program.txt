@@ -1,0 +1,20 @@
+algoritmo salario 
+// Secao de Declaracoes 
+var i , contador : inteiro 
+var b : logico 
+
+inicio 
+// Secao de Comandos 
+i <- 0 
+contador <- 0
+b <- verdadeiro 
+b <- falso 
+para i de 1 ate 5 passo 1 faca 
+   escreva (i) 
+   leia (i) 
+   se contador > 500 entao 
+      contador <- contador + 1 
+   fimse 
+fimpara 
+escreva (contador) 
+fimalgoritmo
